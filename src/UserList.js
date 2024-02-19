@@ -16,7 +16,7 @@ function UserList() {
   return (
     <div>
       <h1>User List</h1>
-      <ul>
+      <ol>
         {/* 
           Map through users and render list items with links to UserDetails component.
           Each list item corresponds to a GitHub user.
@@ -37,11 +37,10 @@ function UserList() {
                 {/* Render the user's login username */}
                 <p>Username: {user.login}</p>
               </div>
-
             </Link>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }
