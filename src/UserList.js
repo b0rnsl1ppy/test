@@ -37,6 +37,7 @@ function UserList() {
                 {/* Render the user's login username */}
                 <p>Username: {user.login}</p>
               </div>
+
             </Link>
           </li>
         ))}
